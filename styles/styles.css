@@ -182,10 +182,11 @@ p {
     position: relative;
     top: 112px;
     height: 149px;
+    justify-content: space-between;
 }
 
 .basket_frame_basket {
-    position: relative ;
+    position: absolute ;
     top: 56px;
     left: 96px;
     font-family: "Newsreader";
@@ -193,16 +194,16 @@ p {
     line-height: 76.8px;
     letter-spacing: -2%;
     font-size: 64px;
-    width: 181px;
+    /* width: 181px; */
     height: 77px;
 }
 
 .basket_items_quantity {
-    width: 69px;
+    /* width: 69px; */
     height: 26px;
     position: relative;
     top: 90px;
-    left: 141px;
+    left: 347px;
     font-size: 20px;
     line-height: 26px;
     font-family: "Inter";
@@ -211,11 +212,11 @@ p {
 .borderline {
    
     width: 1248px;
-    top: 149px;
+    top: 112px;
     position: relative;
     left: 96px;
     border-bottom: 1px solid #E6E6E6; 
-    /* box-shadow: 0px 4px 4px 0px #00000040; */
+    box-shadow: 0px 1px 1px 0px #00000040;
 }
 
 .container_main {
@@ -458,5 +459,46 @@ nav div div a {
     position: relative;
 }
 
+.basket_frame-left_part {
+    /* display: flex; */
+    /* justify-content: space-around; */
+    position: relative;
+    /* left: 96px; */
+    
+}
 
+.basket_frame-right_part {
+    display: flex;
+    position: absolute; 
+    left: 1077px;
+    top: 76px; 
+    gap: 8px;
+}
 
+.basket_frame-right_part_sorttype_button--a-z {
+    width: 62px;
+    background-color: white;
+    color: black;
+    
+}
+.basket_frame-right_part_sorttype_button--list-view {
+    width: 101px;
+    background-color: white;
+    color: black;
+}
+
+.basket_frame-right_part_sorttype_button--default {
+    width: 88px;
+}
+
+.basket_frame-right_part button {
+    height: 40px;
+    border-radius: 20px;
+    border: 1px solid #C2C2C2;
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20.8px;
+    text-align: center;
+
+}
