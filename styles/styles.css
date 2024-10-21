@@ -1,0 +1,462 @@
+
+.header__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    width: 1440px;
+    height: 112px;
+    position: fixed;
+    z-index: 1000;
+    background-color: white;
+}
+
+.header__logo {
+    width: 157px;
+    height: 32px;
+    top: 41px;
+    left: 96px;
+    color: #426B1F;
+    font-family: 'Newsreader';
+    font-weight: 500;
+    font-size: 32px;
+    letter-spacing: -1%;
+    position: absolute;
+}
+
+.header_nav--nav {
+    display: flex;
+    justify-content: end;
+    gap: 25px;    
+    align-content: center;
+}
+
+.header__nav--item {
+    height: 21px;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20.8px;
+    color: black;
+    position: relative;
+    top: 41px;
+    left: 744px;
+}
+
+a {
+    text-decoration: none;
+    color:  #426B1F;
+}
+
+button > a {
+    text-decoration: none;
+    color: white;
+}
+
+.header__nav--button {
+    width: 126px;
+    height: 48px;
+    top: 32px;
+    left: 1218px;
+    border: none;
+    position: absolute;
+}
+
+button {
+    border-radius: 8px;
+    background-color:  #426B1F;
+    color: white;
+}
+
+.title {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 1020px;
+    height: 154px;
+    align-content: center;
+    left: 217px;
+    top: 279px;
+}
+
+.title_of_site {
+    font-family: 'Newsreader';
+    font-weight: 400;
+    font-size: 64px;
+    letter-spacing: -2%;
+    text-align: center;
+    line-height: 76.8px;
+}
+
+.farmers {
+    font-style: italic;
+}
+
+.button_container {
+    position: absolute;
+    display: flex;
+    /* justify-content: center; */
+    width: 1440px;
+    top: 481px;
+    left: 607px;
+}
+
+.browse_button {
+    width: 227px;
+    height: 64px;
+    border: 1px solid black;
+}
+
+.gallery__container {
+    width: 1440px;
+    height: 693px;
+    display: flex;
+    position: absolute;
+    top: 701px;
+    left: 96px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.gallery_img_abs {
+    position: absolute;
+    left: 96px;
+}
+
+.gallery_img_rel {
+    position: relative;
+    left: 660px;
+} 
+
+.photo_sign {
+    position: absolute;
+    top: 1287px;
+    left: 756px;
+    width: 763px;
+    height: 44px;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: -1%;
+    line-height: 22.4px;
+}
+
+.photo_sign-span {
+    font-weight: 300;
+}
+
+.container_article{
+    display: flex;
+    left: 96px;
+    position: relative;
+}
+
+.left_column {
+    font-family: 'Inter';
+    font-size: 14px;
+    letter-spacing: 4%;
+    line-height: 22.4px;
+    position: absolute;
+    top: 1555px;
+    left: 96px;
+}
+
+.article_article {
+    width: 822px;
+    height: 512px;
+    position: absolute;
+    top: 1550px;
+    left: 309px;
+    font-family: 'Inter';
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 400;
+}
+
+p {
+    margin-top: 0%;
+}
+
+.basket_frame {
+    display: flex;
+    width: 1440px;
+    position: relative;
+    top: 112px;
+    height: 149px;
+}
+
+.basket_frame_basket {
+    position: relative ;
+    top: 56px;
+    left: 96px;
+    font-family: "Newsreader";
+    font-weight: 400;
+    line-height: 76.8px;
+    letter-spacing: -2%;
+    font-size: 64px;
+    width: 181px;
+    height: 77px;
+}
+
+.basket_items_quantity {
+    width: 69px;
+    height: 26px;
+    position: relative;
+    top: 90px;
+    left: 141px;
+    font-size: 20px;
+    line-height: 26px;
+    font-family: "Inter";
+}
+
+.borderline {
+   
+    width: 1248px;
+    top: 149px;
+    position: relative;
+    left: 96px;
+    border-bottom: 1px solid #E6E6E6; 
+    /* box-shadow: 0px 4px 4px 0px #00000040; */
+}
+
+.container_main {
+    display: flex;
+    width: 1248px;
+    position: absolute;
+    top: 301px;
+    left: 96px;
+}
+
+.container_goods {
+    display: flex;
+    position: relative;
+    width: 821px;
+    flex-direction: column;
+    
+    top: 50px;
+    
+    gap: 31px;
+}
+
+.container_basket_item{
+    background-color: #FAFAF5;
+    border: 2px solid #E6E6E6;
+    display: flex;
+    border-radius: 24px ;
+    height: 160px;
+   
+}
+
+.goods_name{
+    position: relative;
+    width: 162px;
+    height: 26px;
+    top: 24px;
+    left: 24px;
+    font-family: 'Inter';
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 26px;
+    text-align: left;
+}
+
+.goods_price {
+    position: relative;
+    width: 102px;
+    height: 26px;
+    top: 4px;
+    left: 24px;
+    font-family: 'Inter';
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 26px;
+    text-align: left;
+    color: #426B1F;
+}
+
+.input_field {
+    position: relative;
+    width: 128px;
+    height: 40px;
+    top: 15px;
+    left: 24px;
+    padding: 4px 8px 4px 16px;
+    gap: 10px;
+    border-radius: 20px 0px 0px 0px;
+    border: 2px 0px 0px 0px;
+}
+
+.summary_value {
+    position: relative;
+    width: 57px;
+    height: 26px;
+    top: 24px;
+    left: 394px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 26px;
+    text-align: right;
+}
+
+.goods_img {
+    border-top-left-radius: 24px;
+    border-bottom-left-radius: 24px;
+}
+
+.container_order_summary{
+    display: flex;
+    position: relative;
+    width: 395px;
+    height: 318px;
+    top: 50px;
+    left: 32px;
+    border-radius: 24px 0px 0px 0px;
+    border: 2px 0px 0px 0px;
+    background: #FAFAF5;
+    border: 2px solid #E6E6E6;
+    flex-direction: column;
+}
+
+nav div div a {
+    color: black;
+    text-decoration: none;
+}
+
+.container_order_summary_middle {
+    position: relative;
+    display: flex;
+    width: 395px;
+    height: 21px;
+    top: 58px;
+    left: 24px;
+    justify-content: space-between;
+}
+
+.container_order_summary_middle_left {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    gap: 15px;
+
+}
+
+.container_order_summary_middle_right {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    gap: 15px;
+    right: 30px;
+}
+
+.order_summary_button {
+    width: 347px;
+    height: 48px;
+    top: 247px;
+    left: 24px;
+    padding: 8px 16px 8px 24px;
+    gap: 8px;
+    border-radius: 8px;
+    position: absolute;
+}
+
+.top_block {
+    width: 151px;
+    height: 26px;
+    top: 24px;
+    left: 24px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 26px;
+    text-align: left;
+    position: relative;
+}
+
+.container_order_summary_middle_left--item, .container_order_summary_middle_right--item {
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20.8px;
+    text-align: left;
+}
+
+.container_order_summary_middle_left--bold, .container_order_summary_middle_left--bold {
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20.8px;
+    text-align: left;
+}
+
+.container_produce_main {
+    display: flex;
+    position: relative;
+    top: 189px;
+    left: 96px;
+    gap: 32px;
+}
+
+.container_produce_item {
+    display: flex;
+    flex-direction: column;
+    width: 395px;
+    height: 444px;
+    top: 301px;
+    left: 96px;
+    gap: 0px;
+    border-radius: 24px 24px 0px 0px;
+    border: 2px 0px 0px 0px;
+    opacity: 0px;
+    border: 2px solid #E6E6E6;
+    background: #FAFAF5;
+}
+
+.produce_item_img {
+    width: 395px;
+    height: 296px;
+    border-radius: 24px 24px 0px 0px;
+}
+
+.produce_item-title {
+    /* width: 162px; */
+    height: 26px;
+    top: 24px;
+    left: 24px;
+    font-family: 'Inter';
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 26px;
+    text-align: left;
+    position: relative;
+}
+
+.produce_item-price {
+    /* width: 92px; */
+    height: 26px;
+    top: 30px;
+    left: 24px;
+    font-family: 'Inter';
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 26px;
+    text-align: left;
+    color: #426B1F;
+    position: relative;
+}
+
+.produce_item-descriprion {
+    /* width: 259px; */
+    height: 24px;
+    top: 42px;
+    left: 24px;
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #6D6D6D;
+    position: relative;
+}
+
+
+
